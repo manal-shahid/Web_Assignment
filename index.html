@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Weather App</h1>
+        <button id="dashboard">Dashboard</button>
+        <button id="tables">Tables</button>
+    </div>
+    <div class="main-content">
+        <h2>Weather Dashboard</h2>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather">Get Weather</button>
+        </div>
+        <div id="weather-widget" class="widget">
+            <h3>Current Weather</h3>
+            <p id="city-name"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+            <p id="weather-description"></p>
+            <img id="weather-icon" src="weather.jpg" alt="Weather Icon">
+        </div>
+        <div id="charts">
+            <h3>5-Day Forecast Charts</h3>
+            <canvas id="bar-chart"></canvas>
+            <canvas id="doughnut-chart"></canvas>
+            <canvas id="line-chart"></canvas>
+        </div>
+<div id="chatbot-container">
+    <div id="chat-window">
+        <div id="messages"></div>
+    </div>
+    <input type="text" id="chat-input" placeholder="Ask me anything...">
+    <button id="send-button">Send</button>
+</div>
+        <div id="forecast-table-container">
+            <h3>5-Day Weather Forecast</h3>
+            <table id="forecast-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Temperature</th>
+                        <th>Weather Condition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Forecast data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
