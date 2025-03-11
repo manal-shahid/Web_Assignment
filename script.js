@@ -4,6 +4,8 @@ const GeminiapiKey = 'AIzaSyCp9dstZwnUn1a7v6FTHheyG967seYywz8';
 const weatherWidget = document.getElementById('weather-widget');
 const forecastTableBody = document.querySelector('#forecast-table tbody');
 
+// This is the js file....
+console.log("Hello!! My name is Manal Shahid");
 async function fetchCurrentWeather(city) {
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
@@ -273,3 +275,5 @@ function displayMessage(message, sender) {
     messagesDiv.appendChild(messageDiv);
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
 }
+// changes made in main
+// changes made in lab7
