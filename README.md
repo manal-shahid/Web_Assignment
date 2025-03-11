@@ -1,5 +1,5 @@
 Weather Dashboard with Chatbot Integration
-
+// This the changes made in lab7 branch
 This project is a web-based weather dashboard application that fetches and displays current weather information and a 5-day forecast for any city. The app also integrates a chatbot for interacting with users.
 
 Features:
