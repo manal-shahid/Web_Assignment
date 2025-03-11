@@ -4,6 +4,7 @@ Weather Dashboard with Chatbot Integration
 =======
 // This is the chnge made in main branch
 // This is the chnge made in manal branch
+/This is the chnage again made in manal branch
 >>>>>>> main
 This project is a web-based weather dashboard application that fetches and displays current weather information and a 5-day forecast for any city. The app also integrates a chatbot for interacting with users.
 
