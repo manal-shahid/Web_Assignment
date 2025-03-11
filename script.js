@@ -275,3 +275,5 @@ function displayMessage(message, sender) {
     messagesDiv.appendChild(messageDiv);
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
 }
+// changes made in main
+// changes made in lab7
